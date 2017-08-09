@@ -10,14 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    @IBOutlet weak var arrow: UIImageView!
+    @IBOutlet weak var addArrow: UIImageView!
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 1, delay: 0.25,
+                       options: [.autoreverse, .repeat],
+                       animations: {
+                        self.arrow.frame.origin.y -= 20
+                        self.addArrow.frame.origin.y -= 20
+        })
     }
 
 

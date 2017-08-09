@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					B6E23C331F3B6F86006CBBE6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = X458A5BXZ4;
+						DevelopmentTeam = F83BXD8Z2Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -267,7 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X458A5BXZ4;
+				DEVELOPMENT_TEAM = F83BXD8Z2Y;
 				INFOPLIST_FILE = testAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.collincannavo.testAnimation;
@@ -280,7 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X458A5BXZ4;
+				DEVELOPMENT_TEAM = F83BXD8Z2Y;
 				INFOPLIST_FILE = testAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.collincannavo.testAnimation;
